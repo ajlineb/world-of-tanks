@@ -10,10 +10,12 @@ const Nav = ({ setLocation }) => {
   ];
   const [active, setActive] = useState("/");
 
+  //this sends the data to the top setlocation
   useEffect(() => {
-    setLocation(active); //this sends the data to the top setlocation
+    setLocation(active);
   }, [active]);
 
+  //returns the Tabs actual text
   const handleTab = (label) => {
     if (label === "") {
       return "Home";
@@ -23,11 +25,12 @@ const Nav = ({ setLocation }) => {
     } else return "Contact";
   };
 
+  //creates an array to pick from easier
   let path = window.location.href.split("/");
 
   return (
     <div>
-      <nav className="flex justify-center bg-stone-800 text-stone-500 font-bold p-1 text-lg">
+      <nav className="flex justify-center tabs-bg-color font-medium p-1 text-lg">
         {tabs.map((tab) => (
           <ul key={tab.id} className="px-8">
             <Link
@@ -36,7 +39,11 @@ const Nav = ({ setLocation }) => {
               onClick={() => {
                 setActive(tab.label);
               }}
-              className={path[3] === tab.label ? "text-orange-600" : "p-1"}
+              className={
+                path[3] === tab.label
+                  ? "text-orange-600 font-bold"
+                  : "p-1 transition hover:text-orange-600 delay-100"
+              }
             >
               {handleTab(tab.label)}
             </Link>

@@ -5,12 +5,16 @@
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto";
-  font-size: 22px;
+  font-family: Roboto Condensed, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  color: rgba(184, 184, 162);
+  font-weight: 600;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(24, 23, 27);
+  background-color: rgb(28, 28, 30);
+  background-image: url(./Images/sparkles.png);
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

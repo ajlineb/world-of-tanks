@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const Nav = () => {
+//the setlocation here is getting the data and passing it up to the Header
+const Nav = ({ setLocation }) => {
   const tabs = [
     { id: 1, label: "" },
     { id: 2, label: "help" },
     { id: 3, label: "contact" },
   ];
   const [active, setActive] = useState("/");
+
+  useEffect(() => {
+    setLocation(active); //this sends the data to the top setlocation
+  }, [active]);
 
   const handleTab = (label) => {
     if (label === "") {

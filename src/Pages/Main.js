@@ -10,18 +10,36 @@ const Main = () => {
           <p className="mb-4">
             This is the perfect place to find tanks that EroForce played with
             and has Youtube recordings for. Just search for your favorite tank
-            below and watch the Youtube videos for V2 equipment, live recording,
-            Twitch highlight or best replay! Also, you're getting the equipment
-            recommendation, field modification and crew skills for the selected
+            below and watch the Youtube videos for{" "}
+            <span className="italic">V2 equipment</span>,{" "}
+            <span className="italic">live recording</span>,{" "}
+            <span className="italic">Twitch highlight </span>
+            or <span className="italic">best replay</span>! Also, you're getting
+            the <span className="font-black">equipment recommendation</span>,{" "}
+            <span className="font-black">field modification</span> and{" "}
+            <span className="font-black">crew skills</span> for the selected
             vehicle!
           </p>
           <hr className="mb-3 border-wg-header"></hr>
-          <div>
-            <img
-              className="xl:w-48"
-              src={require("../Images/skillpackage.png")}
-              alt="Skill4ltu Pack"
-            ></img>
+          <div className="flex flex-col xl:flex-row relative z-10">
+            <div className="flex mt-2">
+              <div className="flex text-center w-full align-middle justify-center mb-4 flex-col xl:flex-row">
+                <div className="m-auto"></div>
+                <img
+                  className="xl:w-48"
+                  src={require("../Images/skillpackage.png")}
+                  alt="Skill4ltu Pack"
+                ></img>
+              </div>
+              <ul className="text-xs my-auto mx-4">
+                <li>
+                  <span className="bg-red-500 text-white text-xs px-2 rounded-md">
+                    10% TIP INCLUDED
+                  </span>
+                </li>
+                <li className="px-2"></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="w-full lg:w-2/5"></div>

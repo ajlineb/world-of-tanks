@@ -14,7 +14,7 @@ const Header = () => {
     <>
       <div className="px-4 py-4 header-bg-color">
         <div className="flex justify-around mx-auto items-center relative text-xl">
-          <a href="#" className="inline-flex">
+          <a href="/" className="inline-flex">
             <img
               src="https://yt3.ggpht.com/ytc/AMLnZu-V4A__CO2hzwdI2FSdLZylV0BxZcB_ahuPlNPsQw=s88-c-k-c0x00ffffff-no-rj"
               alt="eroforce's icon"

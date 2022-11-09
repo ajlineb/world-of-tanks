@@ -2,7 +2,7 @@
   "name": "world-of-tanks",
   "version": "0.1.0",
   "main": "",
-  "homepage": "http://ajlineb.github.io/world-of-tanks",
+  "homepage": "http://ajlineb.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

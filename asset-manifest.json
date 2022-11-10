@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/world-of-tanks/static/css/main.5bdc598d.css",
-    "main.js": "/world-of-tanks/static/js/main.5e0fa19a.js",
+    "main.js": "/world-of-tanks/static/js/main.e8f93569.js",
     "static/js/787.2a4e00f1.chunk.js": "/world-of-tanks/static/js/787.2a4e00f1.chunk.js",
     "static/media/skillpackage.png": "/world-of-tanks/static/media/skillpackage.56c9870a473be605abe3.png",
     "static/media/mirny.webp": "/world-of-tanks/static/media/mirny.545e4635d1e5a3d57d8a.webp",
@@ -14,11 +14,11 @@
     "static/media/premium.PNG": "/world-of-tanks/static/media/premium.17328c22a6bf249d2855.PNG",
     "static/media/regular.PNG": "/world-of-tanks/static/media/regular.5c569f8f0a0169090685.PNG",
     "main.5bdc598d.css.map": "/world-of-tanks/static/css/main.5bdc598d.css.map",
-    "main.5e0fa19a.js.map": "/world-of-tanks/static/js/main.5e0fa19a.js.map",
+    "main.e8f93569.js.map": "/world-of-tanks/static/js/main.e8f93569.js.map",
     "787.2a4e00f1.chunk.js.map": "/world-of-tanks/static/js/787.2a4e00f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bdc598d.css",
-    "static/js/main.5e0fa19a.js"
+    "static/js/main.e8f93569.js"
   ]
 }

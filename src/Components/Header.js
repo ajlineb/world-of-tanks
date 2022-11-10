@@ -31,7 +31,7 @@ const Header = () => {
                 EroForce Tank Station
               </span>
             </a>
-            {location === "" ? (
+            {location === "world-of-tanks" ? (
               <div className=""></div>
             ) : (
               <div className="w-3/5 md:w-2/5 relative">

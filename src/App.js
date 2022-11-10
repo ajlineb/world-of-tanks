@@ -8,7 +8,7 @@ import NoPage from "./Pages/NoPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/world-of-tanks">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />}></Route>

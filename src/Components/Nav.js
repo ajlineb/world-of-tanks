@@ -4,20 +4,21 @@ import { useState, useEffect } from "react";
 //the setlocation here is getting the data and passing it up to the Header
 const Nav = ({ setLocation }) => {
   const tabs = [
-    { id: 1, label: "" },
-    { id: 2, label: "help" },
-    { id: 3, label: "contact" },
+    { id: 1, label: "world-of-tanks", link: "" },
+    { id: 2, label: "help", link: "help" },
+    { id: 3, label: "contact", link: "contact" },
   ];
-  const [active, setActive] = useState("/");
+  const [active, setActive] = useState("");
 
   //this sends the data to the top setlocation
   useEffect(() => {
     setLocation(active);
+    console.log(path, path[path.length - 1], active);
   }, [active]);
 
   //returns the Tabs actual text
   const handleTab = (label) => {
-    if (label === "") {
+    if (label === "world-of-tanks") {
       return "Home";
     }
     if (label === "help") {
@@ -39,13 +40,13 @@ const Nav = ({ setLocation }) => {
         {tabs.map((tab) => (
           <ul key={tab.id} className="px-8">
             <Link
-              to={tab.label}
+              to={tab.link}
               key={tab.id}
               onClick={() => {
                 setActive(tab.label);
               }}
               className={
-                path[3] === tab.label
+                path[path.length - 1] === tab.label
                   ? "text-orange-600 font-bold"
                   : "p-1 transition hover:text-orange-600 delay-100"
               }

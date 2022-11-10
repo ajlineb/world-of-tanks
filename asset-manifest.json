@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/world-of-tanks/static/css/main.5bdc598d.css",
+    "main.js": "/world-of-tanks/static/js/main.3b121eb7.js",
+    "static/js/787.2a4e00f1.chunk.js": "/world-of-tanks/static/js/787.2a4e00f1.chunk.js",
+    "static/media/skillpackage.png": "/world-of-tanks/static/media/skillpackage.56c9870a473be605abe3.png",
+    "static/media/mirny.webp": "/world-of-tanks/static/media/mirny.545e4635d1e5a3d57d8a.webp",
+    "static/media/sparkles.png": "/world-of-tanks/static/media/sparkles.7c6e7c740bab83dc4b79.png",
+    "static/media/realm.png": "/world-of-tanks/static/media/realm.0b39ac788dc8d3851cfe.png",
+    "static/media/replays.PNG": "/world-of-tanks/static/media/replays.7dba3c391b498c0690b6.PNG",
+    "static/media/clan.PNG": "/world-of-tanks/static/media/clan.ef4fe846d6695f6d05fa.PNG",
+    "index.html": "/world-of-tanks/index.html",
+    "static/media/prefmm.PNG": "/world-of-tanks/static/media/prefmm.a28acb4c66330e59ba9f.PNG",
+    "static/media/premium.PNG": "/world-of-tanks/static/media/premium.17328c22a6bf249d2855.PNG",
+    "static/media/regular.PNG": "/world-of-tanks/static/media/regular.5c569f8f0a0169090685.PNG",
+    "main.5bdc598d.css.map": "/world-of-tanks/static/css/main.5bdc598d.css.map",
+    "main.3b121eb7.js.map": "/world-of-tanks/static/js/main.3b121eb7.js.map",
+    "787.2a4e00f1.chunk.js.map": "/world-of-tanks/static/js/787.2a4e00f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bdc598d.css",
+    "static/js/main.3b121eb7.js"
+  ]
+}

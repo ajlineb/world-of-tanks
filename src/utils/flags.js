@@ -1,0 +1,81 @@
+const data = [
+  {
+    id: 1,
+    src: require("../Images/flags/germany.png"),
+    alt: "Germany",
+    title: "Germany",
+    name: "Germany",
+  },
+  {
+    id: 2,
+    src: require("../Images/flags/ussr.png"),
+    alt: "U.S.S.R",
+    title: "U.S.S.R",
+    name: "U.S.S.R",
+  },
+  {
+    id: 3,
+    src: require("../Images/flags/usa.png"),
+    alt: "U.S.A",
+    title: "U.S.A",
+    name: "U.S.A",
+  },
+  {
+    id: 4,
+    src: require("../Images/flags/france.png"),
+    alt: "France",
+    title: "France",
+    name: "France",
+  },
+  {
+    id: 5,
+    src: require("../Images/flags/uk.png"),
+    alt: "U.K",
+    title: "U.K",
+    name: "U.K",
+  },
+  {
+    id: 6,
+    src: require("../Images/flags/china.png"),
+    alt: "China",
+    title: "China",
+    name: "China",
+  },
+  {
+    id: 7,
+    src: require("../Images/flags/japan.png"),
+    alt: "Japan",
+    title: "Japan",
+    name: "Japan",
+  },
+  {
+    id: 8,
+    src: require("../Images/flags/czch.png"),
+    alt: "Czechoslovakia",
+    title: "Czechoslovakia",
+    name: "Czechoslovakia",
+  },
+  {
+    id: 9,
+    src: require("../Images/flags/sweed.png"),
+    alt: "Sweden",
+    title: "Sweden",
+    name: "Sweden",
+  },
+  {
+    id: 10,
+    src: require("../Images/flags/poland.png"),
+    alt: "Poland",
+    title: "Poland",
+    name: "Poland",
+  },
+  {
+    id: 11,
+    src: require("../Images/flags/meatball.png"),
+    alt: "Italy",
+    title: "Italy",
+    name: "Italy",
+  },
+];
+
+export default data;

@@ -1,3 +1,5 @@
+import Tanksearch from "../Components/Tanksearch.js";
+
 const Main = () => {
   return (
     <div className="px-4 py-8 mx-auto md:max-w-full lg:max-w-screen-2xl md:px-8 lg:px-8 lg:py-10 lg:pb-6">
@@ -45,7 +47,7 @@ const Main = () => {
                 </ul>
                 <div className="m-auto mx-4 flex-row justify-center">
                   <h3 className="font-bold mb-2">
-                    Check your price in your region
+                    Check the price in your region
                   </h3>
                   <ul className="flex space-x-4 mx-auto justify-center">
                     <li>
@@ -99,14 +101,14 @@ const Main = () => {
         </div>
         <div className="w-full lg:w-2/5">
           <img
-            className="items-end shadow-lg rounded border-4 border-wg-crew filter drop-shadow-wg w-full h-3/5"
+            className="items-end shadow-lg rounded border-4 border-wg-crew2 filter drop-shadow-wg w-full my-image"
             src={require("../Images/mirny.webp")}
             alt="EroForce"
             title="EroForce"
           ></img>
         </div>
       </div>
-      <div></div>
+      <Tanksearch />
     </div>
   );
 };

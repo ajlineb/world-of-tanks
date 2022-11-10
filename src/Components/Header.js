@@ -20,7 +20,7 @@ const Header = () => {
       <div className="px-4 filter relative z-50 py-4 header-bg-color">
         <div class="px-4 py-4 mx-auto md:max-w-full lg:px-6 lg:max-w-screen-2xl">
           <div className="relative flex items-center justify-between">
-            <a href="/" className="inline-flex">
+            <a href="/world-of-tanks" className="inline-flex">
               <img
                 src="https://yt3.ggpht.com/ytc/AMLnZu-V4A__CO2hzwdI2FSdLZylV0BxZcB_ahuPlNPsQw=s88-c-k-c0x00ffffff-no-rj"
                 alt="eroforce's icon"
